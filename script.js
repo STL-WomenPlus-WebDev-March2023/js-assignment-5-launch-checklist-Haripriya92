@@ -3,6 +3,7 @@
 
 window.addEventListener("load", function () {
   let form = document.querySelector("form");
+  document.getElementById("faultyItems").style.visibility = "hidden";
   form.addEventListener("submit", function (event) {
     event.preventDefault();
     let pilot = document.getElementById("pilotName").value;
