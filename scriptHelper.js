@@ -1,5 +1,5 @@
 // Write your helper functions here!
-Request("isomorphic-fetch");
+require("isomorphic-fetch");
 
 function addDestinationInfo(
   document,
@@ -94,7 +94,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
       statusId.style.color = "#419F6A";
       document.getElementById(
         "cargoStatus"
-      ).innerHTML = `Cargo mass low enough for launch my test1`;
+      ).innerHTML = `Cargo mass low enough for launch`;
       document.getElementById(
         "fuelStatus"
       ).innerHTML = `Fuel level high enough for launch`;
